@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+body {
+  margin: 0;
+  font-family: 'Space Grotesk';
+  background-color: #0f0f0f;
+  color: white;
+}
+
+img {
+  image-rendering: auto;
+}
