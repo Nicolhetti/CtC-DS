@@ -25,7 +25,7 @@ export function EmoteCard({ name, filename, preview, onRightClick }: EmoteCardPr
         : `/emotes/${filename}`;
 
     const handleClick = () => {
-        const emoteUrl = `${location.origin}/api/emote?filename=${filename}&size=48`;
+        const emoteUrl = `[.](${location.origin}/api/emote?filename=${filename}&size=48)`;
         const success = copyToClipboard(emoteUrl);
         if (success) {
             setCopied(true);
